@@ -1,12 +1,38 @@
-*.class
+# Eclipse ############
+######################
+.metadata/
+.settings/
+.project
+.classpath
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# IntelliJ ###########
+######################
+.idea/
+out/
+*.iml
+*.ipr
+*.iws
+atlassian-ide-plugin.xml
+*.patch
 
-# Package Files #
-*.jar
-*.war
-*.ear
+# Logs ###############
+######################
+*.log
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# Gradle #############
+######################
+.gradle/
+build/
+
+# Maven #############
+######################
+target/
+
+# Mac ################
+######################
+.DS_Store
+
+# Windows ############
+######################
+Thumbs.db
+ehthumbs.db
